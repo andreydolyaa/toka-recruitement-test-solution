@@ -1,0 +1,68 @@
+[
+    {
+        "id":"uid99",
+        "city":"Algiers",
+        "name":"Siri jakobsson",
+        "criteria":"Normal"
+    },
+    {
+        "id":"uid98",
+        "city":"Astana",
+        "name":"Thitiwat Shimma",
+        "criteria":"Advanced"
+    },
+    {
+        "id":"uid97",
+        "city":"Vancouver",
+        "name":"Tikhon Yaroslavsky",
+        "criteria":"Normal"
+    },
+    {
+        "id":"uid96",
+        "city":"Chennai",
+        "name":"Roman Kupetov",
+        "criteria":"Expert"
+    },
+    {
+        "id":"uid95",
+        "city":"Quito",
+        "name":"Thitiwat Shimma",
+        "criteria":"Normal"
+    },
+    {
+        "id":"uid94",
+        "city":"Ankara",
+        "name":"Carolien Bioeme",
+        "criteria":"Expert"
+    },
+    {
+        "id":"uid93",
+        "city":"Edmonton",
+        "name":"Helena Brauer",
+        "criteria":"Normal"
+    },
+    {
+        "id":"uid92",
+        "city":"Leon",
+        "name":"Mar Rueda",
+        "criteria":"Expert"
+    },
+    {
+        "id":"uid91",
+        "city":"Mountain View",
+        "name":"Seri Anand",
+        "criteria":"Advanced"
+    },
+    {
+        "id":"uid90",
+        "city":"Norwich",
+        "name":"Akumjeli Akuchi",
+        "criteria":"Normal"
+    },
+    {
+        "id":"uid89",
+        "city":"Tulsa",
+        "name":"Andrey Dolya",
+        "criteria":"Advanced"
+    }
+]
