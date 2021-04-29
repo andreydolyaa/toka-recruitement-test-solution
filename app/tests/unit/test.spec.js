@@ -1,6 +1,6 @@
-import { shallowMount, createLocalVue,mount } from '@vue/test-utils';
+import { shallowMount, createLocalVue, mount } from '@vue/test-utils';
 import Vuex from 'vuex'
-import Start from '@/components/Start.vue';
+import Start from '@/views/Start.vue';
 import UserPreview from '@/components/UserPreview.vue';
 import getters from './getters-mock';
 
@@ -40,13 +40,13 @@ describe('UserPreview Component', () => {
 });
 
 
-describe('VUEX STORE GETTERS' ,()=>{
-    test('state.users',()=>{
+describe('VUEX STORE GETTERS', () => {
+    test('state.users', () => {
         const state = {
-            users:['user1','user2','user3'],
-            isLoading:true
+            users: ['user1', 'user2', 'user3'],
+            isLoading: true
         }
-        expect(getters.getNumOfUsers(state)).toBe(state.users.length);
+        expect(getters.getNumOfUsers(state)).toBe(3);
         // expect(getters.getIsLoading(state)).toBe(true);
     });
 });
@@ -66,7 +66,7 @@ describe('VUEX STORE GETTERS' ,()=>{
 //             getters
 //         });
 //     });
-    
+
 //     test('renders store.getters.isLoading ReturnArrow', () => {
 //         const wrapper = mount(ReturnArrow, { store, localVue });
 //         const p = wrapper.find('p');

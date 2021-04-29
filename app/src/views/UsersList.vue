@@ -45,7 +45,7 @@ import { mapGetters } from "vuex";
 import userPreview from "../components/UserPreview.vue";
 import loading from "../components/Loading.vue";
 import returnArrow from "../components/ReturnArrow.vue";
-import filterBar from "./Filter.vue";
+import filterBar from "../components/Filter.vue";
 import search from "../components/Search.vue";
 export default {
 	data() {
